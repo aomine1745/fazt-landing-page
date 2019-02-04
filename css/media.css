@@ -1,0 +1,37 @@
+@media(min-width: 320px){
+	.logo{
+		padding-top: 2.5em;
+	}
+	.container{
+		width: 90%;
+	}
+	.header-content{
+		padding: 2em;
+		width: 250px;
+		transform: translateY(0px);
+	}
+	.text{
+		display: none;
+	}
+	.grid-3 .grid-2{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media(min-width: 560px){
+	.container{
+		width: 80%;
+	}
+	.header-content{
+		width: 350px;
+		transform: translateY(-50px);
+	}
+	.text{
+		display: block;
+	}
+	.grid-3{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.grid-2{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
